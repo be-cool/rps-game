@@ -1,3 +1,16 @@
-h1 {
-    color: goldenrod;
+html {
+    margin: 30px;
+}
+
+/* targeting multiple headings within the jumbotron, but not everywhere */
+.jumbotron h1, .heading-container {
+    text-align: center;
+}
+
+/* apply some styles to the h3 */
+.heading-container h3 {
+    background-color: goldenrod;
+    display: inline-block;
+    padding: 10px;
+    color: whitesmoke;
 }
